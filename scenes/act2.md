@@ -301,25 +301,25 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 n: SEGUNDA RONDA: *¡A LUCHAR!*
 
-[Oh no they all hate us!](#act2a_social)
+[¡Oh, no, todos nos odian!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[¿Le estabas poniendo *ojitos* a ese pelirrojo?](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[Oye, hablemos sobre el significado de la vida.](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: ¡Estamos arruinando esta fiesta porque somos unos tristones!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: ¡Nos estamos cargando las buenas vibraciones! ¡Estamos cometiendo vibricidio imprudente!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: Humana, tenemos que irnos *inmediatamente*, antes de que--
 
 ```
 _.a2_first_danger = 'social';
@@ -332,15 +332,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: Es más atractivo que nosotros, así que el mero hecho de *mirarlo* significa que--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: SOMOS UNOS ASQUEROSOS
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: Damos repelús, somos unos malvados, malos malísimos y terribles perve--
 
 ```
 _.a2_first_danger = 'perv';
@@ -353,31 +353,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: Al fin y al cabo, ¿acaso algo que hagamos importa de verdad?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: ¿Contribuir a la humanidad? Cualquier gran obra caerá tal y como lo hizo Ozymandias. ¿El amor? La muerte siempre lo separará.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: ¡Y cuánta muerte hay! *Nosotros* moriremos. *Nuestros seres queridos* morirán.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: ¡El segundo principio de la termodinámica implica que incluso nuestro *universo* morirá!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: Ah, ¿y eso de que "la muerte nos hace apreciar la vida"? ¡Eso es como decir que la esclavitud es buena porque nos hace apreciar la felicidad!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: Oh, ¿que "tienes que darle tu propio significado"? ¡Eso es justo lo que dicen los cultistas y los conspiradores!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: ¡La vida no tiene sentido, la muerte no tiene sentido, ni siquiera el *sentido* tiene sentido! ¿Qué se supone que debemos hacer, como almas mortales que som--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -394,7 +394,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: Eh... humana, ¿me estás escuchando?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -402,23 +402,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *OH*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: DEBO ADVERTIRTE DE...
 
-[*More* of the same danger!](#act2b_louder)
+[¡*Más* del mismo tipo de peligro!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[¡*Otro* tipo de peligro social!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[¡*Otro* tipo de peligro moral!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[¡Estás ignorando el peligro! ¡Eso es muy peligroso!](#act2b_ignore)
 
 # act2b_louder
 
@@ -440,14 +440,12 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
-
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: ¡LAS EMOCIONES SON CONTAGIOSAS! ¡SI NO TE VAS, INFECTARÁS A TODOS CON TU ENFERMEDAD MENTAL!
+b: Crearás una epidemia de SÍNDROME DEL TRISTÓN.
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
-
+b: ¡Tenemos que sacarte de aquí y recluirnos en cuarentena para siempre en un habitáculo con Netflix y servicios de comida a domicilio!
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
@@ -460,7 +458,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: ¡DEJA DE SER UNA ASQUEROSA! ¡VA CONTRA LA LEY!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -484,12 +482,12 @@ sfx("gravel");
 `bb({body:"judge_1"}, 0)`
 
 (...501)
-
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+.
+b: Ley Orgánica 3/2007 para los asquerosos, Artículo 74.5: (1) Toda persona que ojee a) esos hombros tan musculosos b) ese culito tan rico (2) será denominada legítimamente como
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "UNA ENORME Y ASQUEROSA BASURA DE PERVERTIDA"
 
 ```
 _.a2_second_danger = 'law';
@@ -503,7 +501,7 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: De hecho, incluso si encuentras un propósito noble en la vida, ¡*aun así* puedes arruinarlo todo!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
