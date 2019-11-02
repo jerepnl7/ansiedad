@@ -104,7 +104,7 @@ bb({eyes:"look"});
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Je, sí, qué mono-
+h: Jeje, anda, mira qué mo--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
