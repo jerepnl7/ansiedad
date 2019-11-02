@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: ¿Pero has *visto* esa "noticia" sobe aquello tan horrible que pasó nosedónde?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ho-hola...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,13 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
-
+a: Dios, odio las noticias. No es más que sensacionalismo.
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: q... qué buena fiesta...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +52,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: Sí, pero no es culpa suya. El *verdadero* problema es la gente que pica en ese sensacionalismo.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: ¿Quién retuitearía una noticia horrible para hacer que todos sus amigos se sintieran mal?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +66,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uf, ¿verdad?
 
 (#act2-preamble-end)
 
@@ -78,14 +77,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: ¿Pero has *visto* esa "noticia" que se ha vuelto tan viral?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ho-hola...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +92,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: Sí, falsísima. ¿Quién se creería algo así y lo retuitearía?
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: q... qué buena fiesta...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +107,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: En serio, tío. O sea, ¿hola? ¿No has pensado en buscar en Google y comprobar si es verdad?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +115,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uf, ¿verdad?
 
 (#act2-preamble-end)
 
@@ -127,14 +126,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: Como iba diciendo, el Complejo Industrial de Memes explota a los gatos.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ho-hola...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +141,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: Explica tu tesis.
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: q... qué buena fiesta...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +156,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: Bueno, ayer vi que alguien retuiteó un GIF de un gato bebiendo leche...
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: ¡Los gatos no digieren bien esa ^mierda^! ¿Quién retuitearía *maltrato animal*?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +170,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uf, ¿verdad?
 
 (#act2-preamble-end)
 
@@ -182,14 +181,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: ¡Total, que no me respondió!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ho-hola...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +196,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: ¿Después de que os emparejaran en Tinder?
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: q... qué buena fiesta...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +228,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: ¡Sí, no sé! ¿Qué pasa, se creía que era un *asesino en serie* o algo? Vaya paranoias.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +236,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uf, ¿verdad?
 
 (#act2-preamble-end)
 
@@ -249,9 +248,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: ¡Sí, no sé! ¿Pensaría que enrollarse con la gente no iba a llenar el vacío de su corazón?
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: ¡No seas tan estirada! ¡Primero abre tu mente, luego ábrete de piernas!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +258,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uf, ¿verdad?
 
 (#act2-preamble-end)
 
@@ -271,7 +270,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: ¡Sí, no sé! ¡Tampoco estaba tan buena, pero habría sido un buen ligue!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +278,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: ¡Hazte con todos!™
 
 (#act2-preamble-end)
 
@@ -300,7 +299,7 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: SEGUNDA RONDA: *¡A LUCHAR!*
 
 [Oh no they all hate us!](#act2a_social)
 
