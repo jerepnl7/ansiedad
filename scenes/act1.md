@@ -402,7 +402,7 @@ n: BUENA SUERTE
 
 `music('battle', {volume:0.5})`
 
-n: PRIMERA RONDA: *¡QUE COMIENCE LA BATALLA!*
+n: PRIMERA RONDA: *¡A LUCHAR!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
