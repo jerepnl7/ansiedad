@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: Y ESTA ES LA ANSIEDAD DE LA HUMANA
 
-n: _YOU_ ARE THE ANXIETY
+n: _TÚ_ ERES LA ANSIEDAD
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: ¡Anda, hola! ¿Ya estás aquí otra vez?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TU TRABAJO ES PROTEGER A LA HUMANA DEL *PELIGRO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: DE HECHO, VOLVER A JUGAR A ESTO YA LA ESTÁ PONIENDO EN *PELIGRO*
 
-n: QUICK, WARN THEM!
+n: ¡AVÍSALA, RÁPIDO!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: ¡Humana, escúchame! ¡La persona que está jugando...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...va a torturarnos otra vez!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...no va a encontrar ningún final alternativo!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...va a sufrir de disonancia ludonarrativa!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,31 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: ¡Nos va a obligar a colocarnos en posición fetal y lloriquear!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: ¡Nos va a hacer cargarnos tu móvil haciéndote sufrir un ataque de pánico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: ¡Nos va a obligar a *CONTENERNOS* a pegarle a la anfitriona de la fiesta!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: ¡Nos va a hacer pegarle a la anfitriona de la fiesta, la antivillana autoidentificable!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Bueno, a lo mejor por lo menos esta vez no nos tiramos por un edif--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: NOS VA A HACER TIRARNOS POR UN EDIFICIO.
 {{/if}}
 
 `bb({body:"fear"});`
-
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: NOS VA A OCURRIR OTRO MONTÓN DE COSAS MALAS Y ENTONCES NOS--
 
 (#act1_replay_end)
 
@@ -96,11 +95,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Sí, *en esencia* la historia es la misma, pero cada capítulo tiene dos posibles desenlaces, además de cada opción de diál--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Quien esté jugando esto va a sentir una gran decepción, va a cerrar esta pestaña del navegador, va a borrar el programa y entonces nos
 
 (#act1_replay_end)
 
@@ -112,27 +111,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: ¿El qué de ludopatía?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: ¡Disonancia ludonarrativa! El eje central de la historia es la libertad de *ELEGIR* construir una relación sana y colaborativa con tus propios miedos,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: pero jugar otra vez con la misma historia implica que tus *ELECCIONES* no importan,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: lo que causa una contradicción entre el mensaje del juego y sus mecánicas,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: lo que abrirá una brecha en el universo narrativo de este juego
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: y entonces nos--
 
 (#act1_replay_end)
 
@@ -141,7 +140,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIREMOOOOOOOOOOS
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +163,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Venga, volvamos a nuestros personajes.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (DEJA QUE _TU_ ANSIEDAD, BLA, BLA, BLA, LO QUE MÁS SE ACERQUE A _TUS_ MIEDOS, BLA, BLA, TODO ESO)
 
 ```
 sfx("squeak");
@@ -186,17 +185,16 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Genial, ya está aquí mi lobo otra vez. Hurraaaaa.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
-
+n: TU TRABAJO ES PROTEGER A LA HUMANA DEL *PELIGRO*
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: DE HECHO, ESE BOCADILLO ESTÁ PONIÉNDOLA EN *PELIGRO* AHORA MISMO
 
-n: QUICK, WARN THEM!
+n: ¡RÁPIDO, AVÍSALA!
 
 ```
 sfx("squeak");
@@ -204,21 +202,20 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: ¡Humana, escucha! ¡Estamos en peligro! Y ese peligro es...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
-
+n4: (¡DEJA QUE _TU_ ANSIEDAD PATRICIPE! ELIGE LO QUE MÁS SE ACERQUE A _TUS_ MIEDOS)
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[¡Estamos almorzando aquí solos! ¡Otra vez!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[¡No estamos siendo productivos mientras comemos!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[¡El pan blanco es malo para la salud!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,27 +224,26 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
-
+b: ¿No sabes que la soledad es un indicio de muerte prematura de la misma manera que lo es consumir 15 cigarrillos diarios?
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (Holt-Lunstad 2010, PLoS Medicine)
+b: (Holt-Lunstad *PLoS Medicine* [EE.UU. 27.7.10])
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Eh... gracias por citar tus fuentes, pero--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Lo que significa que si no vas a socializar con alguien *inmediatamente*, nos
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIREMOOOOOOOOOOS
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +256,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: HAS USADO *MIEDO A NO SER QUERIDO*
 
 (#act1b)
 
@@ -271,27 +267,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: ¡Saca tu portátil y ponte a trabajar!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Eh... no quiero llenar el teclado de migas--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: ¡Si no contribuimos nada a la sociedad, somos un parásito social!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: La sociedad irá a la seguridad social a limpiarse la suciedad, y esa suciedad de la sociedad son los parásitos sociales y entonces intentará matarlos y nos
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIREMOOOOOOOOOOS
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,8 +300,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
-
+n: HAS USADO *MIEDO A SER MALA PERSONA*
 (#act1b)
 
 # act1a_bread
@@ -315,18 +310,17 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: ¿Acaso se han verificado esos estud--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
-
+b: El trigo procesado hará que nos suba el azúcar y entonces nos amputarán las piernas y los brazos y nos
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORIREMOOOOOOOOOOS
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +333,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: HAS USADO *MIEDO A SUFRIR DAÑOS*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: ES MUY EFICAZ
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: ¿Ves, humana? ¡Soy tu leal lobito guardián!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: ¡Confía en tus instintos! ¡Tus sentimientos siempre están justificados!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: CONSIGUE QUE LA BARRA DE ENERGÍA DE TU HUMANA LLEGUE A CERO
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: PARA PROTEGER SUS NECESIDADES FÍSICAS, SOCIALES Y MORALES, PUEDES VALERTE DE:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: MIEDO A *SUFRIR DAÑOS* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: MIEDO A *NO SER QUERIDO* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: MIEDO A *SER MALA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (SUPERCONSEJITO: ¡ELIGE AQUELLA OPCIÓN QUE DESPIERTE TUS MIEDOS PERSONALES MÁS OSCUROS Y PROFUNDOS!~)
 
 h: ...
 
@@ -383,18 +377,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: sabes qué creo que voy a ponerme con el móvil.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: PROTEGE A TU HUMANA
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: DEL MUNDO. DE LOS DEMÁS. DE SÍ MISMA.
 
-n: GOOD LUCK
+n: BUENA SUERTE
 
 (...500)
 
@@ -408,38 +402,37 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: PRIMERA RONDA: *¡QUE COMIENCE LA BATALLA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Anda. Alguien va a montar una fiesta este finde, según Facebook.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: ¿Pero es que esta tía monta una fiesta *cada* fin de semana?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: ¿Qué clase de vacío interno intenta llenar? ¡Seguro que está trastornada por algo y así es como lidia con ello!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
-
+h: ¿Y esto? Me ha invitado y todo...
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: ¡Bueno!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[¡Acepta, o moriremos de soledad!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[¡Recházala, esa fiesta estará llena de drogas venenosas!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Ignórala. Total, somos unos aguafiestas.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: ¡Quince cigarrillos diarios, humana! ¡Quince!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,11 +440,10 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
-{{/if}}
+b: Entonces nadie vendrá a nuestro funeral, tirarán nuestras cenizas al océano, nos zampará una ballena,
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: ¡y nos convertiremos en CACA DE BALLENA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,25 +460,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: ¡Así que, sí, deberíamos ir a esa fiesta!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Pero llévate el portátil para que podamos trabajar y no seamos parásitos sociales.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Pero solo si no nos ponen PAN BLANCO
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: DIOS. Mira, con tal de que te calles...
 
-h: I'll say yes.
+h: Voy a aceptar.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: ¡Caca de ballena, humana! ¡Caca de ballena!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +490,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: o aún peor... PAN BLANCO
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +498,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: ¡Esnifaremos tanta coca y comeremos tanto pan blanco que ni cabremos en el horno crematorio!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: ¡Vamos a meternos tanta droga que el enterrador se preguntará cómo es que nuestro cuerpo *ya venía* embalsamado!
 {{/if}}
 
 ```
@@ -521,14 +513,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Además, no tenemos tiempo de fiestas. ¡Tenemos que ponernos a trabajar si no queremos ser un horrible parásito social!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: DIOS. Mira, con tal de que te calles...
 
-h: I'll say no.
+h: Voy a rechazarla.
 
 `_.partyinvite="no"`
 
@@ -541,15 +533,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Lo único que sabemos hacer es llorar en los rincones porque la soledad es tan mortal como 15 cigarrillos diarios.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Lo único que hacemos en las fiestas es preocuparnos porque deberíamos estar siendo productivos.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Lo único que hacemos es preocuparnos sobre la comida insaludable que nos va a matar.
 {{/if}}
 
 ```
@@ -557,19 +549,18 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: vaya me pregunto por qué
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
-
+b: ¡Así que, si vamos, arruinaremos su fiesta y se sentirá mal, pero si no vamos y rechazamos la invitación, también se sentirá mal!
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: LO ÚNICO QUE HACEMOS ES HACER QUE LA GENTE SE SIENTA MAL, ASÍ QUE NOS MERECEMOS SENTIRNOS MAL
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,9 +571,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Buf. Mira, con tal de que te calles...
 
-h: I'll ignore the invite.
+h: Ignoraré la invitación.
 
 `_.partyinvite="ignore"`
 
@@ -595,19 +586,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Qué más da. Facebook es demasiado para mí. Necesito algo más tranquilo, que me produzca menos ansiedad.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: A ver qué hay en Twitter.
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[¡Oh, no! ¡Mira esta noticia tan terrible!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh, no, ¿y si ese tuit es una indirecta hacia *nosotros*?](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Mira, un GIF de un gatito bebiendo leche](#act1d_milk)
 
 
 # act1d_news
@@ -617,14 +608,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Dios, cómo está el mundo, ¿eh?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Casi parece que se va a acabar, que todo está muriendo y que estamos condenados y que no podemos hacer nada al respecto.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +626,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: ¡Retuitéalo!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -653,11 +644,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: ¡Vale, lo retuiteo, pero cállate!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Ya está bien, me voy a Snapchat.
 
 (#act1e)
 
@@ -666,35 +657,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: ¡Es un subtuit! ¡Un subtuit oculto y sigiloso!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: ¿Dudo que lo sea?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: pero y si hablan de nosotros a nuestras espaldas
 
-h: They're n--
+h: Eso no es ver--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: EN FRENTE DE NUESTRAS ESPALDAS
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Que n--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: pero *y si sí*
 
-h: S--
+h: N--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *y si sí*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -719,7 +710,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: en FIN, pues me voy a Snapchat.
 
 (#act1e)
 
@@ -727,7 +718,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Je, je, qué mono, voy a retuitearlo, es--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +726,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: LOS GATOS NO DIGIEREN BIEN LA LECHE Y SOMOS UNAS PERSONAS HORRIBLES POR DISFRUTAR DE ESTE FLAGRANTE MALTRATO ANIMAL
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -752,7 +743,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: en FIN, me voy a Snapchat.
 
 (#act1e)
 
@@ -760,8 +751,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
-
+h: Anda, fotos de anoche. Conque *estas* son las fiestas semanales esas.
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
 {{if _.partyinvite=="no"}} (#act1e_said_no) {{/if}}
@@ -772,29 +762,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Uf, demasiada gente para mi ansiedad.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: ¿A lo mejor debería haber rechazado la invitación?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[¿Cambiar nuestra respuesta? ¡¿Como unos cretinos?!](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[¡Cambia nuestra respuesta! ¡Demasiada gente!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Fijo que ese subtuit iba dirigido a nosotros.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Espera hemos retuiteado sin comprobar si era una noticia real.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[¿Sabías que estás en una muy mala postura?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -804,14 +794,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: ¿Contaba con que fuéramos y ahora vas a traicionar su confianza?
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: QUINCE. CIGARRILLOS.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: CACA. DE. BALLENA.
 {{/if}}
 
 ```
@@ -826,7 +816,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: ¡Cállate cállate, lo dejaré como un sí!
 
 (#act1f)
 
@@ -837,7 +827,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: ¿Sabes lo que es una estampida humana?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -845,7 +835,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: En 2003, hubo un incendio en un club nocturno en Rhode Island y el pánico hizo que la gente bloqueara las salidas provocando la muerte de 100 personas incineradas
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,15 +843,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: QUIERES QUE NOS PASE ESO
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
-
+b: DI QUE NO DI QUE NO DI QUE NO DI QUE NO DI QUE NO DI QUE NO DI QUE NO DI QUE N-
 
 ```
 bb({body:"normal", eyes:"fear", mouth:"normal"});
@@ -876,7 +865,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: ¡Cállate cállate voy a decir que no! ¡Dios!
 
 (#act1f)
 
@@ -884,35 +873,35 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... Parece que se lo están pasando bien.
 
-h: Maybe I shouldn't have said no to the invite?
+h: ¿A lo mejor debería haber aceptado?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[¿Cambiar nuestra respuesta? ¡¿Como unos cretinos?!](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[¡Cambia nuestra respuesta! ¡No podemos morir solos!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Fijo que ese subtuit iba dirigido a nosotros.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Espera hemos retuiteado sin comprobar si era una noticia real.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[¿Sabías que estás en una muy mala postura?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: ¡Todos cuentan con nosotros!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...cuentan con que los dejemos en paz para que puedan disfrutar de la fiesta sin una asquerosa rarita {{if _.whitebread}}comedora de pan blanco{{/if}} como tú--
 
 
 ```
@@ -928,7 +917,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: ¡Cállate cállate me quedaré con el no!
 
 (#act1f)
 
@@ -939,7 +928,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: ¡La soledad crónica eleva nuestros niveles de cortisol y de enfermedades cardiovasculares y derrames cerebrales!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -949,7 +938,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: QUINCE. CIGARRILLOS.
 {{/if}}
 
 ```
@@ -958,7 +947,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: ¡Cállate cállate cambiaré mi respuesta a un sí! ¡Dios!
 
 (#act1f)
 
@@ -969,14 +958,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: ¡Todos esos tuits polémicos nuestros han salido a la luz!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: ¡Se van a meter con nosotros y nos van a cancelar y nos van a arrastrar con una cuerda atada a un caballo trotando por todo el mundo digital!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -991,7 +980,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: ¡¿Por qué me haces esto?!
 
 (#act1f)
 
@@ -1002,14 +991,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
-
+b: ¡Estamos transmitiendo falsa información! ¡Estamos destruyendo la fiabilidad de la prensa gratis!
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: ¡Somos la razón por la que el fascismo se alzará de las ruinas de la democracia!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1025,7 +1013,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: ¡¿Por qué me haces esto?!
 
 (#act1f)
 
@@ -1036,13 +1024,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: ¡¿Quieres acabar hecha un cuatro?! ¡Deja de encorvarte!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: Eso también va por ti.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1058,7 +1046,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: ¡¿Por qué me haces esto?!
 
 (#act1f)
 
@@ -1066,27 +1054,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... Parece que se lo están pasando bien.
 
-h: Maybe I shouldn't have ignored the invite?
+h: ¿A lo mejor no debería haber ignorado la invitación?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Sigue ignorándola. Si total, somos unos aguafiestas.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Mejor dí que sí.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Mejor di que no.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Es un poco de mala educación ignorarla, ¿no?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Otra gente nos ignora a *nosotros*, así que...
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1097,7 +1085,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: yo diría que es justo.
 
 (#act1f)
 
@@ -1105,9 +1093,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: ¿Vas... a dejar que me divierta?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Bueno, es que la soledad *podría* matarnos.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1117,7 +1105,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Hay mucha gente. Las multitudes son peligrosas.
 
 (#act1e_yes_changetono)
 
@@ -1129,60 +1117,59 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: Qué más da. Tengo una notificación en Tinder.
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: ¿La app esa de rollitos?
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
-
+h: No es para enrollarse. Es una manera de conocer a gente nuev--
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: Es una app de rollitos.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: ¡Oh, tengo un match! ¡Y parece mono!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: Por favor, no me arruines est--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: PELIGRO PELIGRO PELIGRO PELIGRO PELIGRO PELIGRO
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[Nos están *manipulando*.](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[Estamos *manipulando* a otra gente.](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[TU MATCH ES UN ASESINO EN SERIE](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: Enrollarte con cualquiera llenará tu agujero de ahí abajo,
 
-b: but they can never fill the hole...
+b: pero no tu agujero
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: de ahí *dentro*.
 
 (...1000)
 
@@ -1191,7 +1178,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: Lo que quiero decir es que VAMOS A MORIR SOLOS
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1208,7 +1195,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: ¿Te crees que los genitales de la gente son como Pokémon para coleccionar?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1222,7 +1209,7 @@ Game.FORCE_TEXT_DURATION = 1000;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: ♫ (pokemon theme song)-
+b: ♫ (cabecera de pokémon)-
 
 (...5600)
 
@@ -1231,7 +1218,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ Llegaré a ser la mayor
 
 (...500)
 
@@ -1240,7 +1227,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ la mayor ^zorra^ jamás.
 
 (...1500)
 
@@ -1249,7 +1236,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ Mi culo es muy tentador
 
 (...500)
 
@@ -1258,7 +1245,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ ¡y mis ^tetas^ lo son más!
 
 (...1000)
 
@@ -1267,7 +1254,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ ¡^PUTI^-MON! ¡HAZTE CON
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1277,7 +1264,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: A lo que voy es a que eres una manipuladora.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,19 +1282,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: ¡Te atraparán en un pozo y te obligarán a alimentarte de pan blanco para engordarte y luego llevar tu piel a modo de abrigo!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: Te machacarán con un cronómetro pomodoro y te dirán "HABER SIDO MÁS PRODUCTIVA, PARÁSITO".
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: ¡Trocearán tu carne en sangriento confeti, harán serpetinas de tus entrañas y usarán tu sangre para hacer ponche!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: ¡¿Qué te parece ESA invitación a la fiesta?!
 {{/if}}
 
 ```
@@ -1334,44 +1321,43 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: estoy harta de este juego.
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}
-{{if _.parasite}}"we're a society-parasite"... {{/if}}
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}
-{{if _.badnews}}"the world is burning"... {{/if}}
-{{if _.hookuphole}}"we'll die alone"... {{/if}}
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}
-{{if _.pokemon}}a ^crappy^ parody song... {{/if}}
+{{if _.fifteencigs}}"que si moriremos de soledad"... {{/if}}
+{{if _.parasite}}"que si somos un parásito social"... {{/if}}
+{{if _.whitebread}}" que si te comes eso, nos matará"... {{/if}}
+{{if _.subtweet}}"que si hablan de nosotros a nuestras espaldas"... {{/if}}
+{{if _.badnews}}"que si el mundo está hecho un desastre"... {{/if}}
+{{if _.hookuphole}}"que si vamos a morir solos"... {{/if}}
+{{if _.serialkiller}}"que si es un asesino en serie"... {{/if}}
+{{if _.catmilk}}"que si los gatos no digieren bien la leche"... {{/if}}
+{{if _.pokemon}}que si canciones paródicas de ^mierda^... {{/if}}
 
-h: i just want to live my life.
+h: solo quiero vivir mi vida.
 
-h: i just want to be free from all this... pain.
+h: solo quiero liberarme de todo este... dolor.
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
-
+b: Oye... humana...
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: Todo irá bien.
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: Como tu leal lobito guardián, siempre estaré ojo a vizor y me esforzaré al máximo para mantenerte a salvo.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: Te lo prometo.
 
 (...600)
 
@@ -1380,29 +1366,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: Última aplicación, Instagram. A ver qué hay.
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: ...Más fotos de la fiesta.
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: Todos pasándoselo bien. Sin miedos. Sin ansiedades.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: Dios, ¿por qué no puedo ser como ellos? ¿Por qué no puedo ser *normal*?
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: Hablando de fiestas, sobre la invitación para este finde. Mi decisión DEFINITIVA es:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[Deberíamos ir.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[No deberíamos ir.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1418,39 +1404,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: Deb--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: QUE TE.
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: *^FOLLEN.^*
 
 (...500)
 
-b: w
+b: q
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: ¿qué?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: Voy a ir a esa fiesta,
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: NO porque tú quieras, sino porque *yo* quiero.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: Precisamente porque NO quieres que vaya.
 {{/if}}
 
 ```
@@ -1458,15 +1444,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: Tú NO tienes control sobre mí.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
-
+h: Y ahora déjame comerme este bocadillo tan rico en paz, ^joder^.
 `hong({body:"2_sammich_eat"});`
 
 (...601)
@@ -1503,11 +1488,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAH VAMOS A MORIR](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAH TODOS NOS ODIAN](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AAAAH SOMOS PERSONAS HORRIBLES](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1501,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: AAAAH VAMOS A MORIR AAAAAAAAAHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1519,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: AAAAH TODOS NOS ODIAN AAAAAAAAAHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1537,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: AAAAH SOMOS PERSONAS HORRIBLES AAAAAAAAAHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,39 +1555,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: FELICIDADES
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: HAS PROTEGIDO EXITOSAMENTE LAS NECESIDADES FÍSICAS, SOCIALES Y MORALES DE TU HUMANA
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: ¡MIRA LO AGRADECIDA QUE ESTÁ!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: AHORA QUE SU ENERGÍA ESTÁ A CERO, PUEDES CONTROLAR DIRECTAMENTE SUS ACCIONES
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: ELIGE UN GOLPE DE GRACIA
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *ACABA CON ELLA*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{LUCHAR: ¡Castiga a tu estresante móvil!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{HUIR: ¡Ponte a llorar en posición fetal!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: ¡Tu móvil te ha dado un ataque de pánico!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: ¡Zuckerberg y sus amiguitos están secuestrando tu salud mental para ganar dinero para sus proyectos capitalistas!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1610,7 +1595,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: ¡Castiga a tu teléfono! ¡Destrúyelo! ¡Mátalo!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1604,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTALO MÁTAL--
 
 (#act1j)
 
@@ -1627,7 +1612,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: ¡El mundo está lleno de peligros!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1620,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: ¡Haz como los armadillos! ¡Hazte bolita como mecanismo de defensa!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1629,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: HAZTE BOLITA Y LLORA HAZTE BOLITA Y LLORA HAZTE BOLITA Y LLORA HAZTE BOLITA Y LLORA HAZTE BOLITA Y LLORA HAZTE BOLITA Y LLOR--
 
 (#act1j)
 
