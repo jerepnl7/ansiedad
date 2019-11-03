@@ -885,60 +885,58 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: ¿Tal vez podamos practicar cosas como hacer preguntas, escuchar y empatizar, abrirnos y dejar ver nuestras debilidades, etc.?
+h: ¿Tal vez podamos practicar habilidades sociales como hacer preguntas, escuchar y empatizar, abrirnos y dejar ver nuestras debilidades, etc.?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: ¿O crear unos hábitos sociales mejores, como reservar tiempo para salir con amigos o ir a quedadas regulares?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
-
+h: También podríamos aprender a sentirnos más cómodos con el rechazo.
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: O aprender a diferenciar cuándo la gente *no* nos está rechazando y es solo que están cansados o tienen cara de mala ^ostia^ de forma natural.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Cuántas opciones. Pero eso de "aprender habilidades sociales"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[¿No es típico de *manipuladores*?](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[¿No nos hará *más manipulables*?](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[¿Y si no funciona?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: ¿Los asesinos en serie no son muy buenos en leer las emociones de su víctima y "empatizar"?
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
-
+b: ¿Charles Manson no hizo muchos amigos e influenció a la gente?
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: No, tienes razón.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: Las "habilidades sociales" de poco sirven si no te preocupas *de verdad* por la gente.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: En pocas palabras, no seas un ^capullo^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Toma frase de póster motivador.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: “No seas un ^capullo^™”
 
 (#act4_something_else)
 
@@ -946,18 +944,18 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Vamos a parecer un felpudo, "¡Bienvenido!". ¡Y mientras decimos "por favor" y "gracias, nos pisotearán y se limpiarán los pies con nosotros!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: ¡Seremos tan lameculos que parecerá que llevamos pintalabios marrón!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Nah, tienes raz, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
 
 `hong( body:"one_up" });`
 
