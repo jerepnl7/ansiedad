@@ -44,7 +44,7 @@ publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: Me recuerdas a mí misma cuando era más joven. Cuando me tormentaba ese animal de mi cabeza.
+r: Me recuerdas a mí misma cuando era más joven. Cuando me atormentaba ese animal de mi cabeza.
 
 ```
 publish("act3",["roofhunter",9]);
