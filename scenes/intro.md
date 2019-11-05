@@ -1,4 +1,4 @@
-# intro
+﻿# intro
 
 `SceneSetup.intro();`
 
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Welcome! This is less of a "game," more of an interactive story. Hope you like reading, sucka!
+n3: ¡Hola! Más que un "juego", esto es más bien una historia interactiva. ¡Así que espero que te guste leer, pringao!
 
-n3: So before we start, how would *you* like to read?
+n3: Antes de empezar, elije una velocidad de texto.
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
+n3: ¡Genial! Nota: siempre puedes cambiar las opciones con el icono ⚙ de ahí abajo. ¡Ah, y la partida se guarda automáticamente tras cada capítulo!
 
-n3: Now, let's begin our story...
+n3: Y ahora, que comience la historia...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Now, let's begin our story...
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ESTO ES UNA HUMANA
 
 (...600)
 
