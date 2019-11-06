@@ -190,6 +190,7 @@ h: Genial, ya está aquí mi lobo otra vez. Hurraaaaa.
 `hong({eyes:"0_neutral"})`
 
 n: TU TRABAJO ES PROTEGER A LA HUMANA DEL *PELIGRO*
+
 `bb({eyes:"look", mouth:"small_lock"})`
 
 n: DE HECHO, ESE BOCADILLO ESTÁ PONIÉNDOLA EN *PELIGRO* AHORA MISMO
@@ -207,6 +208,7 @@ b: ¡Humana, escucha! ¡Estamos en peligro! Y ese peligro es...
 `bb({body:"squeeze"})`
 
 n4: (¡DEJA QUE _TU_ ANSIEDAD PATRICIPE! ELIGE LO QUE MÁS SE ACERQUE A _TUS_ MIEDOS)
+
 (#act1_normal_choice)
 
 # act1_normal_choice
