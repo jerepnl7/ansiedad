@@ -228,6 +228,7 @@ hong({body:"0_sammich"});
 ```
 
 b: ¿No sabes que la soledad es un indicio de muerte prematura de la misma manera que lo es consumir 15 cigarrillos diarios?
+
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({mouth:"normal", eyes:"normal_right"})`
@@ -242,7 +243,7 @@ h: Eh... gracias por citar tus fuentes, pero--
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Lo que significa que si no vas a socializar con alguien *inmediatamente*, nos
+b: Lo que significa que si no socializas con alguien *inmediatamente*, nos
 
 `bb({body:"panic"})`
 
@@ -323,6 +324,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
 b: El trigo procesado hará que nos suba el azúcar y entonces nos amputarán las piernas y los brazos y nos
+
 `bb({body:"panic"})`
 
 b: MORIREMOOOOOOOOOOS
@@ -562,6 +564,7 @@ h: vaya me pregunto por qué
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 b: ¡Así que, si vamos, arruinaremos su fiesta y se sentirá mal, pero si no vamos y rechazamos la invitación, también se sentirá mal!
+
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
@@ -997,7 +1000,8 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: ¡Estamos transmitiendo falsa información! ¡Estamos destruyendo la fiabilidad de la prensa gratis!
+b: ¡Estamos transmitiendo falsa información! ¡Estamos destruyendo la fiabilidad de la prensa gratuita!
+
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
@@ -1132,6 +1136,7 @@ b: ¿La app esa de rollitos?
 `hong({eyes:"annoyed"})`
 
 h: No es para enrollarse. Es una manera de conocer a gente nuev--
+
 `bb({eyes:"narrow"})`
 
 b: Es una app de rollitos.
@@ -1351,6 +1356,7 @@ h: solo quiero liberarme de todo este... dolor.
 `bb({eyes:"look_sad"});`
 
 b: Oye... humana...
+
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
 b: Todo irá bien.
@@ -1458,6 +1464,7 @@ hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
 h: Y ahora déjame comerme este bocadillo tan rico en paz, ^joder^.
+
 `hong({body:"2_sammich_eat"});`
 
 (...601)
@@ -1575,7 +1582,7 @@ n: AHORA QUE SU ENERGÍA ESTÁ A CERO, PUEDES CONTROLAR DIRECTAMENTE SUS ACCIONE
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: ELIGE UN GOLPE DE GRACIA
+n: ELIGE TU GOLPE DE GRACIA
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
