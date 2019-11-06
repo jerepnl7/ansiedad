@@ -83,6 +83,7 @@ b: NOS VA A HACER TIRARNOS POR UN EDIFICIO.
 {{/if}}
 
 `bb({body:"fear"});`
+
 b: NOS VA A OCURRIR OTRO MONTÓN DE COSAS MALAS Y ENTONCES NOS--
 
 (#act1_replay_end)
@@ -231,7 +232,7 @@ b: ¿No sabes que la soledad es un indicio de muerte prematura de la misma maner
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (Holt-Lunstad *PLoS Medicine* [EE.UU. 27.7.10])
+b: (Holt-Lunstad *PLoS Medicine* [EE.UU. 2010])
 
 `hong({eyes:"0_annoyed"})`
 
@@ -261,6 +262,7 @@ publish("hp_show");
 n: HAS USADO *MIEDO A NO SER QUERIDO*
 
 (#act1b)
+
 
 # act1a_productive
 
@@ -303,6 +305,7 @@ publish("hp_show");
 `_.parasite = true`
 
 n: HAS USADO *MIEDO A SER MALA PERSONA*
+
 (#act1b)
 
 # act1a_bread
@@ -421,6 +424,7 @@ b: ¿Qué clase de vacío interno intenta llenar? ¡Seguro que está trastornada
 `hong({eyes:"surprise"});`
 
 h: ¿Y esto? Me ha invitado y todo...
+
 `bb({eyes:"fear", mouth:"normal"});`
 
 b: ¡Bueno!
