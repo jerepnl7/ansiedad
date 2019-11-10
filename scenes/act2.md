@@ -38,7 +38,8 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Dios, odio las noticias. No es más que sensacionalismo.
+a: Dios, odio las noticias. No son más que sensacionalismo barato.
+
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
@@ -58,7 +59,7 @@ s: Sí, pero no es culpa de los reporteros. El *verdadero* problema es la gente 
 publish("act2",["dee",3]);
 ```
 
-s: ¿Quién retuitearía una noticia horrible para hacer que todos sus amigos se sintieran mal?
+s: ¿Quién retuitearía una noticia horrible para hacer que todos sus amigos se sientan mal?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -126,7 +127,7 @@ a: Uf, ¿verdad?
 publish("act2",["dee",3]);
 ```
 
-s: Como iba diciendo, el Complejo Industrial de Memes explota a los gatos.
+s: Como iba diciendo, el complejo industrial de los memes explota a los gatos.
 
 ```
 publish("act2",["dee",2]);
@@ -250,7 +251,7 @@ publish("act2",["dee",3]);
 
 s: ¡Sí, no sé! ¿Pensaría que enrollarse con la gente no iba a llenar el vacío de su corazón?
 
-s: ¡No seas tan estirada! ¡Primero abre tu mente, luego ábrete de piernas!
+s: ¡Menuda estirada! ¡Primero abre tu mente, luego ábrete de piernas!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -441,11 +442,13 @@ b: DEBO ADVERTIRTE DE...
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
 b: ¡LAS EMOCIONES SON CONTAGIOSAS! ¡SI NO TE VAS, INFECTARÁS A TODOS CON TU ENFERMEDAD MENTAL!
+
 b: Crearás una epidemia de SÍNDROME DEL TRISTÓN.
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
 b: ¡Tenemos que sacarte de aquí y recluirnos en cuarentena para siempre en un habitáculo con Netflix y servicios de comida a domicilio!
+
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
@@ -482,12 +485,12 @@ sfx("gravel");
 `bb({body:"judge_1"}, 0)`
 
 (...501)
-.
+
 b: Ley Orgánica 3/2007 para los asquerosos, Artículo 74.5: (1) Toda persona que ojee a) esos hombros tan musculosos b) ese culito tan rico (2) será denominada legítimamente como
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "UNA ENORME Y ASQUEROSA BASURA DE PERVERTIDA"
+b: "UNA ENORME Y ASQUEROSA BASURA PERVERTIDA"
 
 ```
 _.a2_second_danger = 'law';
@@ -510,6 +513,7 @@ b: Alfred Nobel quería la paz mundial y que las culturas se entendieran entre e
 `bb({eyes:"normal_r"})`
 
 b: Así que necesitaba una manera barata de crear túneles para los trenes. Así que inventó un nuevo material llamado "dinamita"...
+
 `bb({body:"one_up", eyes:"normal"})`
 
 b: el cual fue utilizado en la Primera Guerra Mundial para ASESINAR A MILLONES DE PERSONAS
@@ -712,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: ¡La ENORME Y ASQUEROSA BASURA DE PERVERTIDA será sentenciada a 72 horas en uno de esos cacharros medievales de humillación pública
+b: ¡La ENORME Y ASQUEROSA BASURA PERVERTIDA será sentenciada a 72 horas en uno de esos cacharros medievales de humillación pública
 
 b: a menos que esas cosas *la exciten*
 
 `bb({body:"scream_a_1"})`
 
-b: porque es una ENORME Y ASQUEROSA BASURA DE PERVERTIDA
+b: porque es una ENORME Y ASQUEROSA BASURA PERVERTIDA
 
 `_.a2_attack_3 = "bad";`
 
@@ -738,7 +742,7 @@ b: PUM, SE ESCAPA VENENO DE UN VERTEDERO Y MATA A UN NIÑO
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding? ¿Estás sudando y tu corazón va a mil?
+b: ¿Estás sudando y tu corazón va a mil?
 
 `bb({body:"scream_a_1"})`
 
@@ -894,7 +898,7 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^! ¡J*ODEEER*!
+h: ¡J^ODEEER^!
 
 h: C^OÑO^ DE LA P^UTA^ MADRE O^STIA^, *J^ODEEEER^*
 
@@ -908,7 +912,7 @@ b: ¿Por qué me ignorabas?
 
 `hong({body:"facepalm"})`
 
-h: ^Coño^, tío, eres más tonto que una piedra.
+h: ^Ostia^, tío, eres más tonto que una piedra.
 
 `hong({body:"facepalm_2"})`
 
@@ -953,7 +957,7 @@ b: Conclusión: si ya tenías la autoestima baja, ¡repetir afirmaciones te hace
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: (Wood *Psychological Science* \[EE.UU., 2009]). Búscalo en Google Académico, humana.
+b: (Wood *Psychological Science* [EE.UU., 2009]). Búscalo en Google Académico, humana.
 
 `bb({body:"scream_b_1"})`
 
@@ -986,6 +990,7 @@ b: Afortunadamente, yo, como tu leal lobito guardián, puedo alertarte sobre tus
 `bb({body:"scream_b_1"})`
 
 b: TODO. TODO ESTÁ MAL.
+
 ```
 hong({body:"attacked"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -1275,6 +1280,7 @@ r: Escúchame: sé lo que se siente al tener a un animal metido en tu cabeza.
 ```
 publish("act2",["party_hunter",8]);
 ```
+
 r: *Todos* sabemos lo que se siente. Por eso monto estas fiestas cada finde, para olvidarnos de los problemas, olvidarnos de ese animal.
 
 ```
@@ -1382,7 +1388,7 @@ h: ¡Mmm, tiene un paladar exquisito!
 
 h: ¡Un fuerte sabor a "ciérrale el pico a tu mente" que deja un sutil gustillo a "nunca más sentir nada"!
 
-b: This is bad, human. This is really, really bad.
+b: Humana, esto está mal. Muy, pero que muy mal.
 
 [Así es *precisamente* como empiezan las adicciones.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1460,9 +1466,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: ¿Pero qué ^cojones^ es esta ^mierda^?
+h: ¿Pero qué ^cojones^ es esa ^mierda^?
 
-h: ¿Vas a chillarme más *palabras* estúpidas para--
+h: ¿Qué a chillarme más *palabras* estúpidas para--
 
 ```
 bb({body:"special_c"});
@@ -1516,7 +1522,7 @@ h: PODÍA *ESCUCHAR* EL CRUJIR DE LAS COSTILLAS. PODÍA *SABOREAR* LA SANGRE EN 
 
 b: Perdóname, humana.
 
-n: *FINISH THEM*
+n: *ACABA CON ELLA*
 
 [{LUCHAR: Pégale a la anfitriona.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1626,7 +1632,7 @@ music('party1', {volume:0.6, fade:6});
 
 r: *provocativa*.
 
-r: Me gustas. Te espero aquí la semana que viene, bombón.
+r: Me gustas. Aquí te espero la semana que viene, ¿vale, bombón?
 
 ```
 publish("act2",["party_hunter",19]);
@@ -1692,7 +1698,7 @@ b: ¡Humana! ¡¿Te encuentras bien?!
 publish("act2", ["act2_end","next"]);
 ```
 
-b: aramba, eso ha estado *cerca*. Podríamos haber--
+b: caramba, eso ha estado *cerca*. Podríamos haber--
 
 ```
 Game.clearText();
