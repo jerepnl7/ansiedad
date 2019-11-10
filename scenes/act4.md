@@ -288,7 +288,7 @@ b: ¡Hemos sobrevivido!
 
 `bb({eyes:"normal_d"});`
 
-b: Pero... sí, tenís razón.
+b: Pero... sí, tenías razón.
 
 `hong({eyes:"surprise"});`
 
@@ -296,7 +296,7 @@ h: ¿Hm?
 
 `bb({eyes:"normal"});`
 
-b: He sido *igualito* que Pedro y el lobo. Y cuando hubo un peligro *de verdad*, tú (con razón) no me creíste.
+b: He sido *igualito* que Pedro y el lobo. Y cuando hubo un peligro *de verdad*, tú, con razón, no me creíste.
 
 `bb({eyes:"surprise_r"});`
 
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: GUAU GUAU GUAU GUAU GUAU
+b: GUAU GUAU GUAU GUAU
 
 (...1884)
 
@@ -894,6 +894,7 @@ h: ¿O crear unos hábitos sociales mejores, como reservar tiempo para salir con
 `hong({ body:"one_up" });`
 
 h: También podríamos aprender a sentirnos más cómodos con el rechazo.
+
 `hong({ eyes:"normal" });`
 
 h: O aprender a diferenciar cuándo la gente *no* nos está rechazando y es solo que están cansados o tienen cara de mala ^ostia^ de forma natural.
@@ -920,6 +921,7 @@ b: ¿Los asesinos en serie no son muy buenos en leer las emociones de su víctim
 `bb({ eyes:"annoyed" });`
 
 b: ¿Charles Manson no hizo muchos amigos e influenció a la gente?
+
 `hong({ eyes:"annoyed", body:"chin" });`
 
 h: No, tienes razón.
@@ -944,7 +946,7 @@ h: “No seas un ^capullo^™”
 
 `bb({ eyes:"angry" })`
 
-b: Vamos a parecer un felpudo, "¡Bienvenido!". ¡Y mientras decimos "por favor" y "gracias, nos pisotearán y se limpiarán los pies con nosotros!
+b: Vamos a parecer un felpudo, "¡Bienvenido!". ¡Y mientras decimos "por favor" y "gracias", nos pisotearán y se limpiarán los pies con nosotros!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
@@ -966,7 +968,7 @@ hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Ah y... re: esa imagen mental del pintalabios... *¿¿puaj??*
+h: Ah y... Re: esa imagen mental del pintalabios... *¿¿puaj??*
 
 (#act4_something_else)
 
@@ -993,7 +995,8 @@ b: Supongo... En el peor de los casos, nos podemos mudar de ciudad y asumir una 
 
 `bb({ eyes:"normal" });`
 
-h: Seh creo que eso cuesta solo dos bitcoins hoy en día.
+h: Seh creo que eso solo cuesta un par de bitcoins hoy en día.
+
 (#act4_something_else)
 
 # act4_alone_experiment
@@ -1062,6 +1065,7 @@ bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
 b: Solo rodaré si me das una chuche.
+
 `bb({ eyes:"normal", mouth:"normal" });`
 
 h: No.
@@ -1120,6 +1124,7 @@ h: ¡Es bueno saberlo!
 `hong({ eyes:"normal" });`
 
 h: Así aprendemos a preguntar proactivamente a la gente con qué están de acuerdo y aprender a respetar los límites de los demás.
+
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
@@ -1256,6 +1261,7 @@ b: Voy a sonar como un enfermo, pero... hay una parte de míque *quiere* tener e
 `bb({ eyes:"angry" })`
 
 b: ¿No crees que seríamos *aburridos* sin él?
+
 `bb({ eyes:"sad_r", body:"one_up" })`
 
 b: Sin el trastorno, ¿nuestras obras artísticas no se volverán aburridas e insustanciales?
@@ -1367,9 +1373,11 @@ b: ¿Crees que Martin Luther King habría dicho "Mecachis, no podemos sentarnos 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
 b: ¿Por qué cree el complejo industrial de la autoayuda que ondear la bandera blanca es algún tipo de *sabiduría profunda*?
+
 `bb({ eyes:"annoyed", body:"normal" });`
 
 h: Creo que los psicólogos se refieren a "aceptar" cosas malas más bien como reconocer que existen y que son difíciles de cambiar,
+
 h: no como abandonar cualquier intento de cambiarlas.
 
 `bb({ eyes:"suspect" });`
@@ -1379,6 +1387,7 @@ b: Pues que digan "reconocer", no "aceptar".
 `hong({ body:"chin", eyes:"annoyed" });`
 
 h: Sí, ahora que lo dices, "aceptar" es algo confuso.
+
 `bb({ eyes:"closed", mouth:"narrow" });`
 
 b: Sí, lo *reconozco*.
@@ -1390,6 +1399,7 @@ b: Sí, lo *reconozco*.
 `bb({ eyes:"angry" });`
 
 b: ¿Como si fuera algo *bueno* que estemos tan rotos? ¡No!
+
 `bb({ eyes:"angry_r", body:"one_up" });`
 
 b: ¡Todos esos guionistas de Hollywood que romantizan las enfermedades mentales son unos palurdos!
@@ -1429,6 +1439,7 @@ b: Pues que digan *eso*, y no una palabra confusa como "aceptar".
 `hong({ body:"chin", eyes:"annoyed" });`
 
 h: Ahora que lo pienso, "aceptar" apesta como palabra.
+
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
 b: No acepto "aceptar".
@@ -1463,6 +1474,7 @@ b: Pues que digan *eso* en vez de usar una palabra tan vaga y confusa como "acep
 `hong({ body:"chin", eyes:"annoyed" });`
 
 h: Supongo que también son malos con las palabras.
+
 (#act4_something_else)
 
 
@@ -1504,6 +1516,7 @@ h: ¿Tienes algún otro pesar en tu corazón?
 # act4_something_else_2
 
 h: Bien, pues creo que ya hemos hablado sobre todos nuestros miedos.
+
 b: Sí, solo hay tres miedos.
 
 h: Sip, tres. Ni uno más ni uno menos.
@@ -1721,7 +1734,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: ¡¿QUÉ CLASE DE PENSAMIENTOS ENFERMOS Y RETORCIDOS ESTARÁ PROCESANDO?! ¡¿QUÉ OSCUROS DESEOS ESCONDE ESTA PSICÓPATA EN SU CORAZÓN?!
+s: ¡¿QUÉ CLASE DE PENSAMIENTOS ENFERMOS ESTARÁ PROCESANDO?! ¡¿QUÉ OSCUROS DESEOS ESCONDE ESTA PSICÓPATA EN SU CORAZÓN?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1780,6 +1793,7 @@ publish("act4", ["bb_closer", 6]);
 ```
 
 b: Eh, ¿no sé? ¿Algo de trabajo en equipo?
+
 ```
 publish("act4", ["bb_closer", 0]);
 publish("act4", ["hong_closer", 3]);
@@ -1813,6 +1827,7 @@ b: Pero... este trabajo se me da fatal. Necesito que me entrenes.
 `publish("act4", ["bb_closer", 4]);`
 
 b: No siempre estoy "justificado", pero tampoco soy siempre "irracional". Yo solo... lo hago lo mejor que puedo. Por favor,
+
 `publish("act4", ["bb_closer", 30]);`
 
 b: ¡Ayúdame a ayudarte!
@@ -1971,6 +1986,6 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: GUAU GUAU GUAU GUAU GUAU
+b: GUAU GUAU GUAU GUAU
 
 (#credits)
