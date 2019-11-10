@@ -448,7 +448,7 @@ b: ¡Quince cigarrillos diarios, humana! ¡Quince!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Entonces nadie vendrá a nuestro funeral, tirarán nuestras cenizas al océano, nos zampará una ballena,
+b: Nadie vendrá a nuestro funeral, tirarán nuestras cenizas al océano, nos zampará una ballena,
 
 {{if !_.fifteencigs}}
 b: ¡y nos convertiremos en CACA DE BALLENA!
