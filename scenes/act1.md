@@ -71,7 +71,7 @@ b: ¡Nos va a obligar a *CONTENERNOS* a pegarle a la anfitriona de la fiesta!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: ¡Nos va a hacer pegarle a la anfitriona de la fiesta, la antivillana autoidentificable!
+b: ¡Nos va a hacer pegarle a la anfitriona de la fiesta, la entrañable antivillana!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
@@ -120,7 +120,7 @@ b: ¡Disonancia ludonarrativa! El eje central de la historia es la libertad de *
 
 `bb({eyes:"normal_right"});`
 
-b: pero jugar otra vez con la misma historia implica que tus *ELECCIONES* no importan,
+b: pero jugar otra vez con la misma historia implica que tus *DECISIONES* no importan,
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -132,7 +132,7 @@ b: lo que abrirá una brecha en el universo narrativo de este juego
 
 `bb({body:"fear"});`
 
-b: y entonces nos--
+b: y entonces nos
 
 (#act1_replay_end)
 
@@ -164,7 +164,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Venga, volvamos a nuestros personajes.
+h: Venga, volvamos a meternos en el papel.
 
 ```
 Game.clearText();
@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Genial, ya está aquí mi lobo otra vez. Hurraaaaa.
+h: Genial, ya está aquí mi lobo otra vez. Hurraaa.
 
 `hong({eyes:"0_neutral"})`
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: ¿No sabes que la soledad es un indicio de muerte prematura de la misma manera que lo es consumir 15 cigarrillos diarios?
+b: ¿No sabes que la soledad es un indicio de muerte prematura equivalente a consumir 15 cigarrillos diarios?
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: HAS USADO *MIEDO A NO SER QUERIDO*
+n: HAS USADO *MIEDO A NO SER QUERIDA*
 
 (#act1b)
 
@@ -364,7 +364,7 @@ n: PARA PROTEGER SUS NECESIDADES FÍSICAS, SOCIALES Y MORALES, PUEDES VALERTE DE
 
 n: MIEDO A *SUFRIR DAÑOS* #harm#
 
-n: MIEDO A *NO SER QUERIDO* #alone#
+n: MIEDO A *NO SER QUERIDA* #alone#
 
 n: MIEDO A *SER MALA PERSONA* #bad#
 
@@ -413,7 +413,7 @@ n: PRIMERA RONDA: *¡A LUCHAR!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Anda. Alguien va a montar una fiesta este finde, según Facebook.
+h: Anda. En Facebook pone que hay una fiesta este finde.
 
 `bb({eyes:"uncertain"});`
 
@@ -595,7 +595,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Qué más da. Facebook es demasiado para mí. Necesito algo más tranquilo, que me produzca menos ansiedad.
+h: Ya está bien. Facebook es demasiado para mí. Necesito algo más tranquilo, que me produzca menos ansiedad.
 
 `hong({eyes:"neutral"});`
 
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: LOS GATOS NO DIGIEREN BIEN LA LECHE Y SOMOS UNAS PERSONAS HORRIBLES POR DISFRUTAR DE ESTE FLAGRANTE MALTRATO ANIMAL
+b: LOS GATOS NO DIGIEREN BIEN LA LECHE, SOMOS UNAS PERSONAS HORRIBLES POR DISFRUTAR DEL MALTRATO ANIMAL
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -761,6 +761,7 @@ h: en FIN, me voy a Snapchat.
 `hong({mouth:"neutral", eyes:"neutral"});`
 
 h: Anda, fotos de anoche. Conque *estas* son las fiestas semanales esas.
+
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
 {{if _.partyinvite=="no"}} (#act1e_said_no) {{/if}}
@@ -1000,7 +1001,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: ¡Estamos transmitiendo falsa información! ¡Estamos destruyendo la fiabilidad de la prensa gratuita!
+b: ¡Estamos transmitiendo falsa información! ¡Estamos destruyendo la fiabilidad de la prensa gratis!
 
 ```
 bb({body:"scream"});
@@ -1220,7 +1221,7 @@ Game.FORCE_TEXT_DURATION = 1000;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: ♫ (cabecera de pokémon)-
+b: ♫ (cabecera de pokémon)
 
 (...5600)
 
@@ -1339,14 +1340,14 @@ h: estoy harta de este juego.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"que si moriremos de soledad"... {{/if}}
-{{if _.parasite}}"que si somos un parásito social"... {{/if}}
-{{if _.whitebread}}" que si te comes eso, nos matará"... {{/if}}
-{{if _.subtweet}}"que si hablan de nosotros a nuestras espaldas"... {{/if}}
-{{if _.badnews}}"que si el mundo está hecho un desastre"... {{/if}}
-{{if _.hookuphole}}"que si vamos a morir solos"... {{/if}}
-{{if _.serialkiller}}"que si es un asesino en serie"... {{/if}}
-{{if _.catmilk}}"que si los gatos no digieren bien la leche"... {{/if}}
+{{if _.fifteencigs}}que si "moriremos de soledad"... {{/if}}
+{{if _.parasite}}que si "somos un parásito social"... {{/if}}
+{{if _.whitebread}}que si "si te comes eso, nos matará"... {{/if}}
+{{if _.subtweet}}que si "hablan de nosotros a nuestras espaldas"... {{/if}}
+{{if _.badnews}}que si "el mundo está hecho un desastre"... {{/if}}
+{{if _.hookuphole}}que si "vamos a morir solos"... {{/if}}
+{{if _.serialkiller}}que si "es un asesino en serie"... {{/if}}
+{{if _.catmilk}}que si "los gatos no digieren bien la leche"... {{/if}}
 {{if _.pokemon}}que si canciones paródicas de ^mierda^... {{/if}}
 
 h: solo quiero vivir mi vida.
@@ -1398,9 +1399,9 @@ b: Hablando de fiestas, sobre la invitación para este finde. Mi decisión DEFIN
 
 `bb({eyes:"normal"});`
 
-[Deberíamos ir.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[Creo que deberíamos ir.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[No deberíamos ir.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Creo que no deberíamos ir.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1416,7 +1417,7 @@ b: Hablando de fiestas, sobre la invitación para este finde. Mi decisión DEFIN
 
 # act1h
 
-b: Deb--
+b: Cre--
 
 ```
 bb({eyes:"wat", mouth:"small"});
