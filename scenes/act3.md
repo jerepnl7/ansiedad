@@ -115,7 +115,7 @@ publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: El animal se está quejando otra vez, ¿verdad?
+r: Ya se está quejando el animal otra vez, ¿verdad?
 
 ```
 publish("act3",["roofhunter",23]);
@@ -127,7 +127,7 @@ r: *Oh, noooo. Es peligroso, no lo hagaaaas.*
 publish("act3",["roofhunter",22]);
 ```
 
-r: ¡Pero precisamente por eso necesitamos experiencias cercanas a la muerte! ¡Fiesta loca! ¡Carpe diem! ¡Esnifa coca del ^culo^ de una ^prosti^! ¡Balconing!
+r: ¡Pero precisamente por eso necesitamos experiencias cercanas a la muerte! ¡Fiesta loca! ¡Carpe diem! ¡Esnifa coca del ^culo^ de una ^prosti^! ¡Que la vida son dos días!
 
 ```
 publish("act3",["roofhunter",10]);
@@ -622,7 +622,7 @@ h: *"Don't worry, be happy!"* ¡Fuera preocupaciones y sé feliz!
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: Todos los genios contemporáneos están de acuerdo: ¡las emociones negativas son *malas*!
+h: Todos los genios de nuestro tiempo están de acuerdo: ¡las emociones negativas son *malas*!
 
 `hong({ eyes:"less_angry" });`
 
