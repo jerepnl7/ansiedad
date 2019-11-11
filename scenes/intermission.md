@@ -16,7 +16,7 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: MIEDOS ESTA RONDA:
+n2: MIEDOS UTILIZADOS:
 
 i: #harm# *SUFRIR DAÑOS:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
