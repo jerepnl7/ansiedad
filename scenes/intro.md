@@ -69,7 +69,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if window.localStorage.credits}}
-[V. Credits](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[V. Créditos](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.credits}}
@@ -92,7 +92,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: ¡Hola! Este "juego" es más bien una historia interactiva. ¡Así que espero que te guste leer, pringao/pringá!
+n3: ¡Hola! Este "juego" es más bien una historia interactiva. ¡Así que espero que te guste leer, pringao o pringá!
 
 n3: Antes de empezar, elige una velocidad de texto.
 
