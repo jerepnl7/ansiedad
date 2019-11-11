@@ -1174,6 +1174,7 @@ b: Ahora tú, humana, ¿qué piensas?
 {{if _.a4_fears_discussed==3}}
 b: ¿Algo más, humana?
 {{/if}}
+
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
 [Si estamos rotos, arreglémonos.](#act4_bad_fix)

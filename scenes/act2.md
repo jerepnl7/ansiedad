@@ -1178,7 +1178,7 @@ b: ¡¿Qué estoy haciendo mal?!
 
 `bb({body:"cry_2"});`
 
-b: Ya *sé* que soy malísimo en mi trabajo. ¡Pero lo *intento*, humano!
+b: Ya *sé* que soy malísimo en mi trabajo. ¡Pero lo *intento*, humana!
 
 `bb({body:"cry_3"});`
 
