@@ -945,11 +945,11 @@ h: *Soy querida. Soy buena. Soy lista. Soy guapa. Soy especial.*
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: De hecho, hacen justo *lo contrario* para la gente con autoestima baja!
+b: ¡De hecho, hacen justo *lo contrario* para la gente con autoestima baja!
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: Fue un estudio bien diseñado; pruebas aleatorias controladas, el responsable del experimento no sabía quién estaba en cada grupo.
+b: Lo dice un estudio bien diseñado; pruebas aleatorias controladas, el responsable del experimento no sabía quién estaba en cada grupo.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
@@ -1412,6 +1412,7 @@ b: ¡Puede habe--
 # act2h_opt3
 
 b: ¡*Sabía que a--
+
 (#act2h)
 
 # act2h
