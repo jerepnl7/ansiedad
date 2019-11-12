@@ -1,4 +1,4 @@
-# act2
+﻿# act2
 
 `SceneSetup.act2();`
 
@@ -596,7 +596,7 @@ b: ¡Por desconectar el detector de humo no vas a estar más a salvo del incendi
 
 `bb({eyes:"suspect_r"})`
 
-b: ¡Ni si quiera olerás el veneno! Solo te irá entrando sueño y entonces--
+b: ¡Ni siquiera olerás el veneno! Solo te irá entrando sueño y entonces--
 
 `bb({body:"scream_c_1"})`
 
@@ -939,7 +939,7 @@ h: *Soy querida. Soy buena. Soy lista. Soy guapa. Soy especial.*
 
 [¿Sabes que eso de las afirmaciones *no funciona*?](#act2d_disproven)
 
-[pero tía no le atribuyas historias raras a los pobres indígenas](#act2d_racist)
+[tía no le atribuyas historias raras a los indígenas](#act2d_racist)
 
 # act2d_disproven
 
@@ -1115,7 +1115,7 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Un segundo... "ellos" dicen que tus sentimientos son válidos, que debes aceptar tus emociones.
+b: Un segundo... "ellos" dicen que tus sentimientos son válidos y justificados, que debes aceptar tus emociones.
 
 `bb({eyes:"suspect_r"});`
 

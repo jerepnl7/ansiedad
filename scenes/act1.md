@@ -1,4 +1,4 @@
-# act1
+﻿# act1
 
 ```
 SceneSetup.act1();
@@ -42,7 +42,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: ¡Humana, escúchame! ¡La persona que está jugando...
+b: ¡Humana, escucha! ¡La persona que está jugando...
 
 [...va a torturarnos otra vez!](#act1_replay_torture)
 
@@ -84,7 +84,7 @@ b: NOS VA A HACER TIRARNOS POR UN EDIFICIO.
 
 `bb({body:"fear"});`
 
-b: NOS VA A OCURRIR OTRO MONTÓN DE COSAS MALAS Y ENTONCES NOS--
+b: NOS VA A OCURRIR OTRO MONTÓN DE COSAS MALAS Y ENTONCES NOS
 
 (#act1_replay_end)
 
@@ -164,7 +164,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Venga, volvamos a meternos en el papel.
+h: Venga, volvamos a nuestros papeles.
 
 ```
 Game.clearText();
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: ¡Cállate cállate, lo dejaré como un sí!
+h: ¡Cállatecállate, lo dejaré como un sí!
 
 (#act1f)
 
@@ -875,7 +875,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: ¡Cállate cállate voy a decir que no! ¡Dios!
+h: ¡Cállatecállate, diré que no! ¡Dios!
 
 (#act1f)
 

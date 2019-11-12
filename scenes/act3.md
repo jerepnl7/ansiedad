@@ -1,4 +1,4 @@
-# act3
+﻿# act3
 
 ```
 SceneSetup.act3();
@@ -794,7 +794,7 @@ hong({ body:"stop", mouth:"stop", eyes:"blank" });
 
 h: Bueno, sí, de todos modos esto es una estupidez.
 
-h: Solo lo he hecho para que destrozarte y, bueno, destrozado estás.
+h: Solo lo he hecho para que te desplomaras y, bueno, desplomado estás.
 
 h: Lo dejamos en empate, ¿te parece bien?
 
