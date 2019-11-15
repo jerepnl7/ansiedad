@@ -1469,7 +1469,7 @@ sfx("charging");
 
 h: ¿Pero qué ^cojones^ es esa ^mierda^?
 
-h: ¿Qué a chillarme más *palabras* estúpidas para--
+h: ¿Qué? ¿Vas a chillarme más *palabras* estúpidas para--
 
 ```
 bb({body:"special_c"});
