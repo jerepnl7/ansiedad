@@ -442,11 +442,11 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: je.
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: jajaja
 
 `hong({ body:"laugh_3" })``
 
