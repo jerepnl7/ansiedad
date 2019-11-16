@@ -736,6 +736,7 @@ h: Y justo antes de llegar a un peligro *de verdad*, pararemos.
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
 b: Yo diría que el límite está entre un trueno fuerte y salir a la calle en plena tormenta con un gorro alto y puntiagudo.
+
 (#act4_something_else)
 
 # act4_thanks
@@ -1420,6 +1421,7 @@ bb({ eyes:"normal" });
 ```
 
 h: Como eso de que revolverse en las arenas movedizas solo hace que te hundas más rápido, y la solución es tumbarse y tener paciencia,
+
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
