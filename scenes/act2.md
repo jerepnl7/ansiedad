@@ -304,7 +304,7 @@ n: SEGUNDA RONDA: *¡A LUCHAR!*
 
 [¡Oh, no, todos nos odian!](#act2a_social)
 
-[¿Le estabas poniendo *ojitos* a ese pelirrojo?](#act2a_perv)
+[¿Le estabas poniendo *ojitos* a esa pelirroja?](#act2a_perv)
 
 [Oye, hablemos sobre el significado de la vida.](#act2a_meaning)
 
@@ -333,7 +333,7 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: Es más atractivo que nosotros, así que el mero hecho de *mirarlo* significa que--
+b: Es más atractiva que nosotros, así que el mero hecho de *mirarla* significa que--
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -1170,7 +1170,7 @@ b: ¡Y entonces me esfuerzo *aún más* en avisarte del peligro! ¡*Más* peligr
 
 `bb({eyes:"cry_2"})`
 
-b: ¡Pero me esfuerze lo que me esfuerce, tú *sigues* pensando que soy tu enemigo!
+b: ¡Pero me esfuerce lo que me esfuerce, tú *sigues* pensando que soy tu enemigo!
 
 `bb({body:"cry_5"});`
 
