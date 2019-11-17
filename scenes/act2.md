@@ -370,7 +370,7 @@ b: ¡El segundo principio de la termodinámica implica que incluso nuestro *univ
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Ah, ¿y eso de que "la muerte nos hace apreciar la vida"? ¡Eso es como decir que la esclavitud es buena porque nos hace apreciar la felicidad!
+b: Ah, ¿y eso de que "la muerte nos hace apreciar la vida"? ¡Eso es como decir que la esclavitud es buena porque nos hace apreciar la libertad!
 
 `bb({body:"one_up"})`
 
