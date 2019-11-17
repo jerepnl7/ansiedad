@@ -332,7 +332,7 @@ b: Bueno, en comparación, ahora todo parece menos aterrador. Y me he puesto a p
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: Si cuando tú luchas contigo, no sirvo para protegerte...
+b: Si cuando yo lucho contigo, no sirvo para protegerte...
 
 h: Y cuando yo lucho contigo *tampoco* sirve, porque solo te pones a gritar más aún...
 
@@ -1259,7 +1259,7 @@ h: Para, por favor.
 
 `bb({ eyes:"angry_d" })`
 
-b: Voy a sonar como un enfermo, pero... hay una parte de míque *quiere* tener este trastorno.
+b: Voy a sonar como un enfermo, pero... hay una parte de mí que *quiere* tener este trastorno.
 
 `bb({ eyes:"angry" })`
 
