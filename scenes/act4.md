@@ -1331,6 +1331,7 @@ h: Ir a la biblioteca para coger libros de psicoterapia que estén basadas en pr
 `hong({ body:"one_up" })`
 
 h: ¡Hay una lista llena de recursos al final de este juego!
+
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
@@ -1363,9 +1364,9 @@ b: Espera.
 
 [¿"Aceptar", o sea, *rendirnos*?](#act4_bad_accept_give_up)
 
-[¿"Aceptar", o sea, *aprobar*?](#act4_bad_accept_approve)
+[¿"Aceptar", o sea, *estar de acuerdo*?](#act4_bad_accept_approve)
 
-[¿"Aceptar", o sea, *tomar literalmente*?](#act4_bad_accept_literally)
+[¿"Aceptar", o sea, *dejarte llevar*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
