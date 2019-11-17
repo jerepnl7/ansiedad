@@ -1627,6 +1627,7 @@ a: N-No... no pasa nada si no...
 `publish("act4", ["hong_to_alshire",2]);`
 
 h2: ¡Sí, estabas en el sofá! En la primera fiesta a la que fui...
+
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
