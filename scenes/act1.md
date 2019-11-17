@@ -449,6 +449,7 @@ b: ¡Quince cigarrillos diarios, humana! ¡Quince!
 
 {{if !_.fifteencigs}}
 b: Nadie vendrá a nuestro funeral, tirarán nuestras cenizas al océano, nos zampará una ballena,
+{{/if}}
 
 {{if !_.fifteencigs}}
 b: ¡y nos convertiremos en CACA DE BALLENA!
@@ -1366,7 +1367,7 @@ b: Todo irá bien.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Como tu leal lobito guardián, siempre estaré ojo a vizor y me esforzaré al máximo para mantenerte a salvo.
+b: Como tu leal lobito guardián, siempre estaré ojo avizor y me esforzaré al máximo para mantenerte a salvo.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
