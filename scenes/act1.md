@@ -384,7 +384,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: sabes qué creo que voy a ponerme con el móvil.
+h: creo que es un buen momento para ponerme con el móvil.
 
 ```
 sfx("rustle2");
