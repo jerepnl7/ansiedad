@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: ¿Pero has *visto* esa "noticia" sobe aquello tan horrible que pasó nosedónde?
+s: ¿Pero has *visto* esa "noticia" sobre aquello tan horrible que pasó nosedónde?
 
 ```
 publish("act2",["dee",2]);
