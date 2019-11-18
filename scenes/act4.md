@@ -899,7 +899,7 @@ h: También podríamos aprender a sentirnos más cómodos con el rechazo.
 
 `hong({ eyes:"normal" });`
 
-h: O aprender a diferenciar cuándo la gente *no* nos está rechazando y es solo que están cansados o tienen cara de mala ^ostia^ de forma natural.
+h: O aprender a diferenciar cuándo la gente *no* nos está rechazando y es solo que están cansados o tienen cara de mala ^hostia^ de forma natural.
 
 ```
 hong({ body:"normal" });
