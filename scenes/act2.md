@@ -900,7 +900,7 @@ attack("20p", _.a2_attack_3);
 
 h: ¡J^ODEEER^!
 
-h: C^OÑO^ DE LA P^UTA^ MADRE O^STIA^, *J^ODEEEER^*
+h: C^OÑO^ DE LA P^UTA^ MADRE HO^STIA^, *J^ODEEEER^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
