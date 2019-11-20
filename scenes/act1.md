@@ -208,7 +208,7 @@ b: ¡Humana, escucha! ¡Estamos en peligro! Y ese peligro es...
 
 `bb({body:"squeeze"})`
 
-n4: (¡DEJA QUE _TU_ ANSIEDAD PATRICIPE! ELIGE LO QUE MÁS SE ACERQUE A _TUS_ MIEDOS)
+n4: (¡DEJA QUE _TU_ ANSIEDAD PARTICIPE! ELIGE LO QUE MÁS SE ACERQUE A _TUS_ MIEDOS)
 
 (#act1_normal_choice)
 
