@@ -1,6 +1,6 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+# [¡Juega a la historia interactiva aquí!](https://jorgeygari.github.io/anxiety/)
 
 ## Public Domain
 

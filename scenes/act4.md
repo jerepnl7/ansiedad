@@ -332,7 +332,7 @@ b: Bueno, en comparación, ahora todo parece menos aterrador. Y me he puesto a p
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: Si cuando tú luchas contigo, no sirvo para protegerte...
+b: Si cuando yo lucho contigo, no sirvo para protegerte...
 
 h: Y cuando yo lucho contigo *tampoco* sirve, porque solo te pones a gritar más aún...
 
@@ -736,6 +736,7 @@ h: Y justo antes de llegar a un peligro *de verdad*, pararemos.
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
 b: Yo diría que el límite está entre un trueno fuerte y salir a la calle en plena tormenta con un gorro alto y puntiagudo.
+
 (#act4_something_else)
 
 # act4_thanks
@@ -832,6 +833,7 @@ hong({ eyes:"annoyed" });
 ```
 
 h: Venga ya, solo soy una chica universitaria vulnerable y tú eres un gran lobo aterrador. ¿Qué podría--
+
 `hong({ eyes:"normal", body:"point" });`
 
 h: Mejor me callo.
@@ -897,7 +899,7 @@ h: También podríamos aprender a sentirnos más cómodos con el rechazo.
 
 `hong({ eyes:"normal" });`
 
-h: O aprender a diferenciar cuándo la gente *no* nos está rechazando y es solo que están cansados o tienen cara de mala ^ostia^ de forma natural.
+h: O aprender a diferenciar cuándo la gente *no* nos está rechazando y es solo que están cansados o tienen cara de mala ^hostia^ de forma natural.
 
 ```
 hong({ body:"normal" });
@@ -1257,7 +1259,7 @@ h: Para, por favor.
 
 `bb({ eyes:"angry_d" })`
 
-b: Voy a sonar como un enfermo, pero... hay una parte de míque *quiere* tener este trastorno.
+b: Voy a sonar como un enfermo, pero... hay una parte de mí que *quiere* tener este trastorno.
 
 `bb({ eyes:"angry" })`
 
@@ -1329,6 +1331,7 @@ h: Ir a la biblioteca para coger libros de psicoterapia que estén basadas en pr
 `hong({ body:"one_up" })`
 
 h: ¡Hay una lista llena de recursos al final de este juego!
+
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
@@ -1361,9 +1364,9 @@ b: Espera.
 
 [¿"Aceptar", o sea, *rendirnos*?](#act4_bad_accept_give_up)
 
-[¿"Aceptar", o sea, *aprobar*?](#act4_bad_accept_approve)
+[¿"Aceptar", o sea, *estar de acuerdo*?](#act4_bad_accept_approve)
 
-[¿"Aceptar", o sea, *tomar literalmente*?](#act4_bad_accept_literally)
+[¿"Aceptar", o sea, *dejarte llevar*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
@@ -1419,6 +1422,7 @@ bb({ eyes:"normal" });
 ```
 
 h: Como eso de que revolverse en las arenas movedizas solo hace que te hundas más rápido, y la solución es tumbarse y tener paciencia,
+
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
@@ -1623,6 +1627,7 @@ a: N-No... no pasa nada si no...
 `publish("act4", ["hong_to_alshire",2]);`
 
 h2: ¡Sí, estabas en el sofá! En la primera fiesta a la que fui...
+
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}

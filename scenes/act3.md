@@ -442,11 +442,11 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: je.
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: jajaja
 
 `hong({ body:"laugh_3" })``
 
@@ -659,7 +659,7 @@ h: NO J^ODAS^.
 
 `hong({ body:"yell_1" });`
 
-h: LA MADRE QUE TE ^PARIÓ^. ¿De verdad has tardado tanto darte cuenta?
+h: LA MADRE QUE TE ^PARIÓ^. ¿De verdad has tardado tanto en darte cuenta?
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 

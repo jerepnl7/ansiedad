@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: ¿Pero has *visto* esa "noticia" sobe aquello tan horrible que pasó nosedónde?
+s: ¿Pero has *visto* esa "noticia" sobre aquello tan horrible que pasó nosedónde?
 
 ```
 publish("act2",["dee",2]);
@@ -304,7 +304,7 @@ n: SEGUNDA RONDA: *¡A LUCHAR!*
 
 [¡Oh, no, todos nos odian!](#act2a_social)
 
-[¿Le estabas poniendo *ojitos* a ese pelirrojo?](#act2a_perv)
+[¿Le estabas poniendo *ojitos* a esa pelirroja?](#act2a_perv)
 
 [Oye, hablemos sobre el significado de la vida.](#act2a_meaning)
 
@@ -333,7 +333,7 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: Es más atractivo que nosotros, así que el mero hecho de *mirarlo* significa que--
+b: Es más atractiva que nosotros, así que el mero hecho de *mirarla* significa que--
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -370,7 +370,7 @@ b: ¡El segundo principio de la termodinámica implica que incluso nuestro *univ
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Ah, ¿y eso de que "la muerte nos hace apreciar la vida"? ¡Eso es como decir que la esclavitud es buena porque nos hace apreciar la felicidad!
+b: Ah, ¿y eso de que "la muerte nos hace apreciar la vida"? ¡Eso es como decir que la esclavitud es buena porque nos hace apreciar la libertad!
 
 `bb({body:"one_up"})`
 
@@ -900,7 +900,7 @@ attack("20p", _.a2_attack_3);
 
 h: ¡J^ODEEER^!
 
-h: C^OÑO^ DE LA P^UTA^ MADRE O^STIA^, *J^ODEEEER^*
+h: C^OÑO^ DE LA P^UTA^ MADRE HO^STIA^, *J^ODEEEER^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
@@ -1170,7 +1170,7 @@ b: ¡Y entonces me esfuerzo *aún más* en avisarte del peligro! ¡*Más* peligr
 
 `bb({eyes:"cry_2"})`
 
-b: ¡Pero me esfuerze lo que me esfuerce, tú *sigues* pensando que soy tu enemigo!
+b: ¡Pero me esfuerce lo que me esfuerce, tú *sigues* pensando que soy tu enemigo!
 
 `bb({body:"cry_5"});`
 
@@ -1469,7 +1469,7 @@ sfx("charging");
 
 h: ¿Pero qué ^cojones^ es esa ^mierda^?
 
-h: ¿Qué a chillarme más *palabras* estúpidas para--
+h: ¿Qué? ¿Vas a chillarme más *palabras* estúpidas para--
 
 ```
 bb({body:"special_c"});
