@@ -1059,7 +1059,7 @@ h: A lo mejor *todavía* no tenemos la seguridad necesaria para ser muy vulnerab
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: llegará el dí en que podamos mostrarle a los demás nuestro verdadero yo, retorcido y humano.
+h: llegará el día en que podamos mostrarle a los demás nuestro verdadero yo, retorcido y humano.
 
 ```
 hong({eyes:"normal"});
