@@ -667,7 +667,7 @@ h: Ya está bien, me voy a Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: ¡Es un subtuit! ¡Un subtuit oculto y sigiloso!
+b: ¡Es una indirecta! ¡Hay que leer entre líneas!
 
 `hong({eyes:"annoyed"});`
 
@@ -787,7 +787,7 @@ bb({mouth:"normal", eyes:"normal"});
 [¡Cambia nuestra respuesta! ¡Demasiada gente!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Fijo que ese subtuit iba dirigido a nosotros.](#act1e_ignore_subtweet)
+[Fijo que esa indirecta iba dirigida a nosotros.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
@@ -895,7 +895,7 @@ h: ¿A lo mejor debería haber aceptado?
 [¡Cambia nuestra respuesta! ¡No podemos morir solos!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Fijo que ese subtuit iba dirigido a nosotros.](#act1e_ignore_subtweet)
+[Fijo que esa indirecta iba dirigida a nosotros.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
