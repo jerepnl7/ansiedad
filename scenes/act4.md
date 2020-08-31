@@ -342,7 +342,7 @@ b: A lo mejor...
 
 `bb({eyes:"normal"})`
 
-h: Ni siquiera tengamos que luchar.
+h: Ni siquiera tenemos que luchar.
 
 ```
 Game.FORCE_CANT_SKIP = true;
