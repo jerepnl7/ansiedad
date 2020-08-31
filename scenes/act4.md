@@ -1012,7 +1012,7 @@ h: ¡Podemos experimentar!
 
 `hong({ body:"chin" });`
 
-h: Podemos darle un toque a algún amigo para quedar, reencontrarnos con un viejo colega, o incluso charlar con el barista.
+h: Podemos darle un toque a algún amigo para quedar, reencontrarnos con un viejo colega, o incluso charlar con el camarero.
 
 `hong({ body:"normal" });`
 
