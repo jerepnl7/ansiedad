@@ -912,7 +912,7 @@ b: ¿Por qué me ignorabas?
 
 `hong({body:"facepalm"})`
 
-h: ^Ostia^, tío, eres más tonto que una piedra.
+h: ^Hostia^, tío, eres más tonto que una piedra.
 
 `hong({body:"facepalm_2"})`
 
