@@ -939,7 +939,7 @@ h: *Soy querida. Soy buena. Soy lista. Soy guapa. Soy especial.*
 
 [¿Sabes que eso de las afirmaciones *no funciona*?](#act2d_disproven)
 
-[tía no le atribuyas historias raras a los indígenas](#act2d_racist)
+[tía no les atribuyas historias raras a los indígenas](#act2d_racist)
 
 # act2d_disproven
 
