@@ -7,20 +7,20 @@
 Nicky Case y Monplaisir ponen de manifiesto que todo su trabajo en este juego se dedica al dominio público, bajo la licencia de [Creative Commons Zero](https://creativecommons.org/choose/zero/).
 Eso significa que puedes remezclar y reutilizar *todo* el arte/código/música del juego, para *lo que sea*, ¡incluido uso comercial!
 
-**P:** ¿Tengo que daros atribuciones?
+**P:** ¿Tengo que daros atribuciones?    
 **R:** *Legalmente* no estás en la obligación de hacerlo, pero ¡lo apreciamos mucho! <3
 
-**P:** En términos legales, ¿puedo decir que este juego lo he creado *yo*?
+**P:** En términos legales, ¿puedo decir que este juego lo he creado *yo*?    
 **R:** Sí, igual que puedes decir que tú escribiste *Frankenstein* de Mary Shelley, o que tienes 13 pezones.
 
 **P:** ¿Puedo publicar este juego en otro sitio?    
 **R:** Depende. Es completamente legal en lo que a derechos de autor se refiere, pero muchos sitios tienen políticas que prohiben publicar obras ajenas de dominio público/código abierto *sin* haber hecho ninguna modificación signitificativa. (Pero si el sitio es tuyo, por supuesto, ¡por favor, publica este juego!)
 
-**P:** ¿Puedo vender un *port* de este juego?
+**P:** ¿Puedo vender un *port* de este juegO?    
 **R:** ¡Sí! Pero para evitar confusiones te recomiendo que aclares que tu juego es un "*port* extraoficial" ("Fan-Made Port") y que *enlaces a esta declaración en la que digo explícitamente que autorizo crear remezclas comerciales*. (Ejemplo: [¡un *port* de Steam de otro de mis juegos!] (https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Es para evitar acusaciones de robo por parte de gente que no sepa que mis proyectos siempre son de código abierto y dominio público.
 
-**Q:** ¿Puedo transformar este juego en un simulador de citas entre la humana y el lobo? 
-**A:** em
+**P:** ¿Puedo transformar este juego en un simulador de citas entre la humana y el lobo?    
+**R:** em
 
 
 ## Full Credits
