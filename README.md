@@ -4,34 +4,32 @@
 
 ## Public Domain
 
-Nicky Case and Monplaisir hereby dedicate all their work for this game to the public domain, under [Creative Commons Zero](https://creativecommons.org/choose/zero/).
-That means: you can remix and reuse *any* of the original art / code / music in this game for *any* purpose, even commercial use!
+Nicky Case y Monplaisir ponen de manifiesto que todo su trabajo en este juego se dedica al dominio público, bajo la licencia de [Creative Commons Zero](https://creativecommons.org/choose/zero/).
+Eso significa que puedes remezclar y reutilizar *todo* el arte/código/música del juego, para *lo que sea*, ¡incluido uso comercial!
 
-**Q:** Do I have to give attribution?    
-**A:** You're not *legally* required to, but it's highly appreciated! <3
+**P:** ¿Tengo que daros atribuciones?
+**R:** *Legalmente* no estás en la obligación de hacerlo, pero ¡lo apreciamos mucho! <3
 
-**Q:** Legally speaking, can I claim *I* made this?    
-**A:** Yes, the same way you're legally allowed to claim to have written Mary Shelley's Frankenstein, or claim you have 13 nipples.
+**P:** En términos legales, ¿puedo decir que este juego lo he creado *yo*?
+**R:** Sí, igual que puedes decir que tú escribiste *Frankenstein* de Mary Shelley, o que tienes 13 pezones.
 
-**Q:** Can I post this game on other sites?    
-**A:** Maybe. Though it's completely legal copyright-wise, many sites have their own policies against posting other people's public domain/open source work *without* significant modifications. (But if it's your own site, then by all means, please mirror this game!)
+**P:** ¿Puedo publicar este juego en otro sitio?    
+**R:** Depende. Es completamente legal en lo que a derechos de autor se refiere, pero muchos sitios tienen políticas que prohiben publicar obras ajenas de dominio público/código abierto *sin* haber hecho ninguna modificación signitificativa. (Pero si el sitio es tuyo, por supuesto, ¡por favor, publica este juego!)
 
-**Q:** Can I sell a port of this game?    
-**A:** Yes! But to avoid confusion, I recommend labeling your game as "Fan-Made Port", and *link to this statement saying I'm explicitly allowing commercial remixes*. (Example: [a Steam port of another one of my games!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) This is to avoid accusations of theft from folks who weren't aware I always open-source + public-domain my projects.
+**P:** ¿Puedo vender un *port* de este juego?
+**R:** ¡Sí! Pero para evitar confusiones te recomiendo que aclares que tu juego es un "*port* extraoficial" ("Fan-Made Port") y que *enlaces a esta declaración en la que digo explícitamente que autorizo crear remezclas comerciales*. (Ejemplo: [¡un *port* de Steam de otro de mis juegos!] (https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Es para evitar acusaciones de robo por parte de gente que no sepa que mis proyectos siempre son de código abierto y dominio público.
 
-**Q:** Can I turn this game into a dating sim between the human and wolf?   
-**A:** uh
+**Q:** ¿Puedo transformar este juego en un simulador de citas entre la humana y el lobo? 
+**A:** em
 
 
 ## Full Credits
 
 Art / Code / Writing by [Nicky Case](https://ncase.me/)
 
-Music by [Monplaisir](https://loyaltyfreakmusic.com)
-
-Extra code by [Spacie](https://spacie.me)
-
-**Sound Effects from FreeSound.org (Creative Commons)**
+Music by [Monplaisir](https://loyaltyfreakmusic.com)P
+Extra code by [Spacie](https://spacie.me)R
+**SoundemEffects from FreeSound.org (Creative Commons)**
 
 * [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/) by MaderaDelEste Films
 * [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) by qubodup
